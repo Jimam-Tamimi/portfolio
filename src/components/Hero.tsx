@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className=" flex flex-col-reverse items-center justify-center mx-auto md:flex-row  md:space-x-5 z-[1]">
           <div className="container flex flex-col items-center justify-center my-8 text-center space-y-7 md:space-y-9 lg:space-y-12 ">
-           <Heading />
+            <Heading />
             <p className="max-w-lg font-medium leading-7 tracking-wide lg:tracking-normal sm:max-w-xl md:max-w-2xl lg:max-w-3xl lg:leading-10 lg:text-lg">
               Self-taught, Well-qualified and Hardworking Full Stack Web
               Developer familiar with a wide range of programming utilities
@@ -39,7 +39,7 @@ export default function Hero() {
             >
               <Link href={"/about/"}>Download Resume</Link>
             </button>
-            <div className="relative flex space-x-12 text-2xl lg:!mt-24 top-2 ">
+            <div className="relative flex space-x-12 text-2xl !mt-24  ">
               <Link
                 className=" hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
                 href={"#"}>
@@ -65,9 +65,7 @@ export default function Hero() {
                 href={"#"}>
                 <FaInstagram />
               </Link>
-              <div
-                id="light-1"
-                className="absolute  shadow-[0px_0px_165px_50px_#25eb62] bg-transparent z-0"></div>
+              <div className="absolute  shadow-[0px_0px_165px_50px_#25eb62] bg-transparent z-0"></div>
             </div>
           </div>
 

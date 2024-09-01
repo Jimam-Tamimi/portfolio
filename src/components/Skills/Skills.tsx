@@ -32,19 +32,23 @@ export default function Skills() {
   ])
 
   useEffect(() => {
-    
-  
+
+
     return () => {
-      
+
     }
   }, [])
-  
+
 
   return (
     <>
       <section className='mb-40 mt-52' id='projects' >
-        <div className="container flex flex-col items-center justify-center m-auto space-y-20">
+        <div className="container flex flex-col items-center justify-center m-auto space-y-20 relative">
           <h1 className='text-5xl font-bold tracking-wide text-center '>My Skills</h1>
+          {/* <div  className="absolute  shadow-[0px_0px_165px_50px_#25ebba] bg-transparent z-0 right-0"></div> */}
+        {/* <div className="absolute  right-[212px] bottom-[212px] shadow-[0px_0px_300px_135px_#005eff] bg-transparent z-0"></div> */}
+        <div className="absolute  right-[212px] bottom-[212px] shadow-[0px_0px_165px_50px_#25eb62] bg-transparent z-0"></div>
+
           <div className='flex flex-wrap items-center justify-center w-full *:my-5 md:justify-between
 
           *:flex *:flex-col *:items-start *:justify-center *:w-full *:space-y-3 *:lg:w-[48%] 

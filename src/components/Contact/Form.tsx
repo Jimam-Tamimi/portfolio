@@ -24,14 +24,14 @@ export default function Form() {
         <>
 
             <form action="#" method="POST" className="flex flex-wrap items-center justify-between w-full *:my-4 tracking-wide 
-            
-            [&_input]:shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]  
-             [&_input]:bg-[rgba(255,255,255,0.23)] [&_input]:backdrop-blur-md 
+            [&_input]:shadow-[0_0_2px_2px_rgba(0,_0,_0,_0.1)]  
+            focus:[&_input]:shadow-[0_0_2px_2px_#83afff] 
+             [&_input]:bg-[rgba(255,255,255,0.23)] [&_input]:backdrop-blur-md [&_input]:transition-all [&_input]:duration-300  
             [&_input]:outline-none
-             [&_input]:dark:bg-[#ffffff2b] [&_input]:rounded [&_input]:text-base [&_input]:text-black [&_input]:px-3 [&_input]:py-2  [&_input]:border-0">
+             [&_input]:dark:bg-[#ffffff2b] [&_input]:rounded [&_input]:text-base   [&_input]:px-3 [&_input]:py-2  [&_input]:border-0">
                 <div className='flex flex-col items-stretch justify-center sm:w-[48%] w-full  space-y-3 '>
                     <label htmlFor="first-name" className='text-xl tracking-wide'>First Name</label>
-                    <input placeholder='First Name' type="text" id='first-name' className='' />
+                    <input placeholder='First Name' type="text" id='first-name'  className='' />
                 </div>
                 <div className='flex flex-col items-stretch justify-center sm:w-[48%] w-full space-y-3 '>
                     <label htmlFor="first-name" className='text-xl tracking-wide'>Last Name</label>
@@ -51,10 +51,10 @@ export default function Form() {
                 </div>
                 <div className='flex flex-col items-stretch justify-center w-[100%] space-y-3 '>
                     <label htmlFor="first-name" className='text-xl tracking-wide'>Message </label>
-                    <textarea placeholder='Message' rows={10} id='first-name' className='shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]  
+                    <textarea placeholder='Message' rows={10} id='first-name' className='shadow-[0_0px_15px_rgba(0,_0,_0,_0.1)]  
              bg-[rgba(255,255,255,0.23)] backdrop-blur-md 
-            outline-none
-             dark:bg-[#ffffff2b] rounded text-base text-black px-3 py-2  border-0'  ></textarea>
+            outline-none focus:shadow-[0_0_2px_2px_#83afff] transition-all duration-300
+             dark:bg-[#ffffff2b] rounded text-base   px-3 py-2  border-0'  ></textarea>
                 </div>
 
                 <button

@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
     <div id="home"></div>
-      <header  className="fixed top-0 w-screen shadow-[0_5px_15px_rgba(0,_0,_0,_0.2)]  z-50 bg-[rgba(0,0,0,0.08)] backdrop-blur-[20px] ">
+      <header  className="fixed top-0 w-screen shadow-[0_5px_15px_rgba(0,_0,_0,_0.2)]  z-50 bg-[rgba(0,0,0,0.08)] backdrop-blur-[15px] ">
         <div className="container flex items-center justify-between py-8 m-auto ">
           <div className="flex justify-center items-center gap-x-32 *:font-extrabold *:tracking-wider ">
 

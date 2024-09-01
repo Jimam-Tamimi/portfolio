@@ -105,8 +105,12 @@ export default function Projects() {
 
     return (
         <section className='my-40' id='projects' >
-            <div className="container flex flex-col items-center justify-center m-auto space-y-24">
+            <div className="container flex flex-col items-center justify-center relative m-auto space-y-24">
                 <h1 className='text-5xl font-bold tracking-wide text-center '>Latest Projects</h1>
+          <div  className="absolute  shadow-[0px_0px_565px_81px_#25ebba] bg-transparent z-0 top-0 left-0"></div>
+          <div className="absolute  -right-8  shadow-[0px_0px_2000px_250px_#e1ff0047] bg-transparent z-0"></div>
+          <div className="absolute  left-8 bottom-[0] shadow-[0px_0px_205px_70px_#25eb62] bg-transparent z-0"></div>
+
                 <div className='flex flex-wrap items-start justify-center w-full *:my-5 md:justify-between'>
                     {
                         projectsLists.map((projects, i) => (
