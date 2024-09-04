@@ -5,7 +5,7 @@ import Form from './Form'
 
 export default function Projects() {
     return (
-        <section className="relative pt-56 -mt-8  pb-20 bg-center bg-cover" id='projects' >
+        <section  className="relative pt-56 -mt-8  pb-20 bg-center bg-cover" id='contact' >
             <Image
                 layout="fill"
                 style={{ zIndex: "-1", objectFit: "cover", objectPosition: "center", }}

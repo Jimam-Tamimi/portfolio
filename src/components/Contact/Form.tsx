@@ -58,7 +58,7 @@ export default function Form() {
                 </div>
 
                 <button
-                    // onClick={(e) => localStorage.setItem("theme", "dark")}
+                    onClick={(e) => {e.preventDefault(); alert("This feature is not available at this moment.")}}
                     // className="  bg-blue-600 text-lg text-white font-semibold py-3 px-6 tracking-wide  rounded-md hover:bg-blue-700 hover:scale-[1.03] transition-all duration-300 active:bg-blue-500 active:scale-95"
                     className="w-full px-6 py-2 ml-auto text-lg font-semibold tracking-wide text-white transition-all duration-300 sm:w-auto btn-hover-animation">Submit</button>
 

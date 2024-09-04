@@ -14,7 +14,7 @@ import Heading from "./hero/Heading";
 export default function Hero() {
   return (
     <>
-      <section id="" className="flex items-center justify-center w-screen mb-40 mt-44 ">
+      <section id="home" className="flex items-center justify-center w-screen mb-40 mt-44 ">
         <div className="absolute  left-[212px] top-[212px] shadow-[0px_0px_300px_135px_#2563eb] bg-transparent z-0"></div>
         {/* <div className="absolute  right-[212px] top-[412px] shadow-[0px_0px_230px_120px_#eb25a6] bg-transparent z-0"></div> */}
         {/* <div className="absolute  left-[0] top-[0] shadow-[0px_143px_12810px_297px_#2563eb7d] bg-transparent z-0"></div> */}
@@ -37,32 +37,32 @@ export default function Hero() {
               "
 
             >
-              <Link href={"/about/"}>Download Resume</Link>
+              <Link href={"https://drive.google.com/file/d/1BdmSO-DaJ1uJzjhLUfyJDt73naWUZyYS/view?usp=sharing"} target="_blank">Download Resume</Link>
             </button>
             <div className="relative flex space-x-12 text-2xl !mt-24  ">
               <Link
                 className=" hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
-                href={"#"}>
+                href={"https://www.facebook.com/JimamFB/"} target="_blank" >
                 <FaFacebook />
               </Link>
               <Link
                 className="hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
-                href={"#"}>
+                href={"https://github.com/Jimam-Tamimi"} target="_blank" >
                 <FaGithub />
               </Link>
               <Link
                 className="hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
-                href={"#"}>
+                href={"https://www.youtube.com/@Jimam"} target="_blank" >
                 <FaYoutube />
               </Link>
               <Link
                 className="hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
-                href={"#"}>
+                href={"https://www.linkedin.com/in/jimam-tamimi-6b5a72324/"} target="_blank" >
                 <FaLinkedin />
               </Link>
               <Link
                 className="hover:text-blue-700 transition-all hover:scale-[1.15] duration-300 active:scale-95 active:text-blue-400"
-                href={"#"}>
+                href={"https://www.instagram.com/jimam_tamimi/"} target="_blank" >
                 <FaInstagram />
               </Link>
               <div className="absolute  shadow-[0px_0px_165px_50px_#25eb62] bg-transparent z-0"></div>

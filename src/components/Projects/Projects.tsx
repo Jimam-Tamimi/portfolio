@@ -38,7 +38,7 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/mfy.webp",
         name: "Law Firm Business Web Application",
         description: " This was a web application I made for a Law Firm.",
         sourceCode: "",
@@ -46,7 +46,7 @@ const projects: ProjectType[] = [
         liveWeb: "https://mfylegal.av.tr/en/"
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/blood.jpg",
         name: "Blood Support (Blood Donating Website)",
         description: "This was a website I made where people who are in need of blood can post a request for blood with all the details like location, hospital, blood group and others. <br />The other users around that specific location can see those requests and if they want they can manage blood and contact the requestor and save a valuable life.<br />I have used React JS for the front end and Django (Rest Framework) for the back end.    I have used websockets to build chat and notification system.",
         sourceCode: "https://github.com/jimam-tamimi/blood-support-p",
@@ -54,7 +54,7 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/doctor.avif",
         name: "Find My Doctor",
         description: "This was a website I built for one of my clients where people could search for doctors and book an appointment. The website also had a payment system integrated so you could pay your doctor from the site. <br />The website had an admin dashboard from where the admin could manage all the doctors, appointments and other data.",
         sourceCode: "https://github.com/jimam-tamimi/find-my-doctor",
@@ -62,7 +62,7 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/fb bot.webp",
         name: "Facebook Group Event Creator Bot",
         description: "You can use this bot and give it a CSV file mentioning all the groups and another CSV file mentioning all the user IDs and passwords and it could automatically create group events in those groups from all the user accounts. <br />I have used Selenium for browser automation and PyQtPy for the Desktop GUI",
         sourceCode: "https://github.com/jimam-tamimi/facebook-group-event-creator-bot",
@@ -70,7 +70,7 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/tutor.webp",
         name: "Tutor Street",
         description: " This was another website I built for my client where teachers could signup and students could book online classes. There was an admin dashboard from where you could manage all the data.",
         sourceCode: "https://github.com/jimam-tamimi/edu-master-n",
@@ -78,7 +78,7 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
-        image: "/projects/chatbot.png",
+        image: "/projects/ware me.jpg",
         name: "Wear Me",
         description: "This was a t-shirt selling website where people could buy t-shirts. I have used Django and Django rest framework as a backend and next JS for the frontend. I also implemented a payment gateway so users could pay after the purchase.",
         sourceCode: "https://github.com/jimam-tamimi/wear-me",

@@ -26,7 +26,7 @@ export default function Testimonials() {
     ]
 
     return (
-        <section className='my-44 mb-0' id='projects' >
+        <section className='my-44 mb-0' id='testimonials' >
             <div className="container relative  flex flex-col items-center justify-center m-auto space-y-24">
 
                 <div className="absolute right-[30%] top-[50%] shadow-[0px_0px_565px_81px_#25ebba] bg-transparent z-0 "></div>

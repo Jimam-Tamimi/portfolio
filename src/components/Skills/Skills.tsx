@@ -11,12 +11,12 @@ export default function Skills() {
   const [skills, setSkills] = useState<SkillType[]>([
     { name: "HTML", percentage: 95 },
     { name: "CSS", percentage: 95 },
-    { name: "Tailwind CSS", percentage: 90 },
-    { name: "BootStrap", percentage: 95 },
+    { name: "BootStrap, Tailwind CSS", percentage: 95 },
     { name: "JavaScript", percentage: 90 },
     { name: "TypeScript", percentage: 85 },
     { name: "React JS", percentage: 85 },
     { name: "Next JS", percentage: 85 },
+    { name: "React Native", percentage: 85 },
     { name: "Python", percentage: 90 },
     { name: "Django", percentage: 90 },
     { name: "Django Rest Frmaework", percentage: 80 },
@@ -42,7 +42,7 @@ export default function Skills() {
 
   return (
     <>
-      <section className='mb-40 mt-52' id='projects' >
+      <section  className='mb-40 mt-52' id='skills' >
         <div className="container flex flex-col items-center justify-center m-auto space-y-20 relative">
           <h1 className='text-5xl font-bold tracking-wide text-center '>My Skills</h1>
           {/* <div  className="absolute  shadow-[0px_0px_165px_50px_#25ebba] bg-transparent z-0 right-0"></div> */}
