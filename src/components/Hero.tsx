@@ -37,7 +37,7 @@ export default function Hero() {
               "
 
             >
-              <Link href={"https://drive.google.com/file/d/1BdmSO-DaJ1uJzjhLUfyJDt73naWUZyYS/view?usp=sharing"} target="_blank">Download Resume</Link>
+              <Link href={"https://drive.google.com/file/d/14Of-l1NVJU35AAT2SvMlF760HzeVGN2_/view?usp=sharing"} target="_blank">Download Resume</Link>
             </button>
             <div className="relative flex space-x-12 text-2xl !mt-24  ">
               <Link
