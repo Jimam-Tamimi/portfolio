@@ -29,12 +29,12 @@ export default function TestimonialComponent({testimonials}:{testimonials:Testim
 
             {
                 testimonialsList.map((testimonials, i) => (
-                    <div className=' space-y-10'>
+                    <div key={i} className=' space-y-10'>
 
                         {
                             testimonials.map((testimonial, i) => (
 
-                                <div className=' shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]   bg-[rgba(255,_255,_255,_0.228)] backdrop-blur-md rounded-lg basis-[100%] md:basis-[49%] lg:basis-[32%] relative group transition-all duration-300 ease-in-out hover:scale-110 px-6 py-5 gap-5 flex flex-col justify-center items-start'>
+                                <div key={i} className=' shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]   bg-[rgba(255,_255,_255,_0.228)] backdrop-blur-md rounded-lg basis-[100%] md:basis-[49%] lg:basis-[32%] relative group transition-all duration-300 ease-in-out hover:scale-110 px-6 py-5 gap-5 flex flex-col justify-center items-start'>
                                     <div className='flex justify-start items-center gap-5'>
                                         <img className='object-cover object-center w-16 h-16   rounded-full transition-all duration-300 ease-in-out'
                                          src={testimonial?.image} alt={`${testimonial?.name} Image`} />

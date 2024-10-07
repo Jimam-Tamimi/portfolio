@@ -14,6 +14,14 @@ type ProjectType = {
 
 const projects: ProjectType[] = [
     {
+        image: "/projects/8.jpg",
+        name: "Channels (Messaging App)",
+        description: "A messaging application where people can create accounts and send messages to other users. <br />I have used Django as backend, Rest Framework for creating rest APIs and Django Channels to implement web sockets for real time data transmission. <br/>And for the application, I have used React Native. Used redux for state management, React Query for API calls and cache management.",
+        sourceCode: "https://github.com/Jimam-Tamimi/Channels",
+        demo: "https://youtu.be/qe0XDoS485Q?list=PL90Q7SlTaUyl2FJGDBApGGvPBC3KwQd73&t=3",
+        liveWeb: ""
+    },
+    {
         image: "/projects/tic tac toe.webp",
         name: "Tic Tac Toe",
         description: " This was an online Online Multiplayer Tic Tac Toe Game where 2 people could create an isolated room and generate a room code. Then they can play the Tic Tac Toe game with each other. <br /> I have used Django Channels to implement WebSockets because I had to Stream the game Data in Real Time.",
@@ -114,10 +122,10 @@ export default function Projects() {
                 <div className='flex flex-wrap items-start justify-center w-full *:my-5 md:justify-between'>
                     {
                         projectsLists.map((projects, i) => (
-                            <div className=' space-y-14 basis-[100%] md:basis-[49%] lg:basis-[31%] '>
+                            <div key={i} className=' space-y-14 basis-[100%] md:basis-[49%] lg:basis-[31%] '>
                                 {
                                     projects.map((project, i) => (
-                                        <div className=' w-full shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]   bg-[rgba(255,_255,_255,_0.228)] backdrop-blur-md rounded-lg relative group transition-all duration-300 ease-in-out hover:scale-110 '>
+                                        <div key={i} className=' w-full shadow-[0_5px_15px_rgba(0,_0,_0,_0.1)]   bg-[rgba(255,_255,_255,_0.228)] backdrop-blur-md rounded-lg relative group transition-all duration-300 ease-in-out hover:scale-110 '>
                                             <div className='overflow-hidden rounded-t-lg'>
                                                 <img className='object-cover w-full transition-all duration-300 ease-in-out scale-110 group-hover:scale-100 h-72' src={project.image} alt={project.image + "image"} />
                                             </div>

@@ -20,9 +20,11 @@ export default function Heading() {
                             'Jimam Tamimi', // Types 'One'
                             1000, // Waits 1s
                             'A Web Developer', // Deletes 'One' and types 'Two'
-                            2000, // Waits 2s
+                            1500, // Waits 1.5s
+                            'An Application Developer', // Deletes 'One' and types 'Two'
+                            1500, // Waits 1.5s
                             'A Conent Creator', // Types 'Three' without deleting 'Two'
-                            2000, // Waits 2s
+                            1500, // Waits 1.5s
 
                         ]}
                         wrapper="span"

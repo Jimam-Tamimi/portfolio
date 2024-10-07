@@ -32,9 +32,9 @@ export default function Header() {
           <div className="lg:flex hidden justify-center items-center gap-x-32 *:font-extrabold *:tracking-wider ">
 
             {
-              menuLinks.map(menu => (
+              menuLinks.map((menu, i) => (
                 <>
-                  <Link className="link " href={menu.link}>{menu.name}</Link>
+                  <Link key={i} className="link " href={menu.link}>{menu.name}</Link>
                 </>
 
               ))
