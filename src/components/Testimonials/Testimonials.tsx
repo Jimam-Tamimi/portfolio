@@ -16,7 +16,7 @@ export default function Testimonials() {
     let testimonials: TestimonialType[] = [
         { image: "/clients/tony.jpg", name: "Tony Ennis", position: "Founder - Tonic Labs", review: "Great developer, would work with again" },
         { image: "/clients/mfy.jpg", name: "M. Furkan Yuce", position: "", review: "Thank you so much for all your services" },
-        { image: "/clients/na.jpg", name: "Susan P.", position: "", review: "We hired Mr Matiur as he already started work on the project, before we confirmed , irrespective of whether we hired him or not. We were shown in detail ,samples of how he intended to proceed with our project.He has completed the work in the time frame." },
+        { image: "/clients/na.jpg", name: "Susan P.", position: "", review: "We hired Jimam as he already started work on the project, before we confirmed , irrespective of whether we hired him or not. We were shown in detail ,samples of how he intended to proceed with our project.He has completed the work in the time frame." },
         { image: "/clients/na.jpg", name: "Joseph M", position: "", review: "Very reliable, fast and knowledge. Definitely recommended. I will hire him for my next project" },
         { image: "/clients/na.jpg", name: "Saleh A.", position: "Academic Researcher", review: "Jimam is a great developer. I will hire him again and recommend him for any one wants a great job" },
         { image: "/clients/ritesh.webp", name: "Ritesh Kawadkar", position: "Web Developer", review: "Super Developer. Delivered Code before time" },
