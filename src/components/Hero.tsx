@@ -32,6 +32,7 @@ export default function Hero() {
               languages. Also a part-time content creator. Able to handle any
               part of the process with ease. Have good communication skills
             </p>
+          
             <Link
               className="!mt-16   text-lg text-white font-semibold py-3 px-6 tracking-wide   transition-all duration-300 
               
