@@ -22,6 +22,14 @@ const projects: ProjectType[] = [
         liveWeb: ""
     },
     {
+        image: "/projects/link-list.webp",
+        name: "Link List ",
+        description: "Link-List is a web platform where users can sign up, create profiles, and share their information along with various links such as social media or websites. <br/> Used Django, Django Rest Framework, Next JS, React Query, Redux, Tailwind CSS, Framer Motion. <br/> Used Next Intl to support multiple languages.",
+        sourceCode: "https://github.com/Jimam-Tamimi/Link-List",
+        // demo: "https://youtu.be/LPCy1bKN-bE?list=PL90Q7SlTaUyl2FJGDBApGGvPBC3KwQd73",
+        liveWeb: "https://linklist-jim.vercel.app/"
+    },
+    {
         image: "/projects/tic tac toe.webp",
         name: "Tic Tac Toe",
         description: " This was an online Online Multiplayer Tic Tac Toe Game where 2 people could create an isolated room and generate a room code. Then they can play the Tic Tac Toe game with each other. <br /> I have used Django Channels to implement WebSockets because I had to Stream the game Data in Real Time.",
