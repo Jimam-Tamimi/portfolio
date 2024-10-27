@@ -37,7 +37,7 @@ export default function Hero() {
               
               btn-hover-animation"
               href={
-                "https://drive.google.com/file/d/14Of-l1NVJU35AAT2SvMlF760HzeVGN2_/view?usp=sharing"
+                "https://drive.google.com/file/d/1RTY50Q-LbErVKR9bB6XxiGJiDKqiOpzW/view?usp=sharing"
               }
               target="_blank"
             >
