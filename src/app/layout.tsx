@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className='scroll-smooth'>
  
       <body className={` overflow-x-hidden bg-gradient-to-br from-[#eaefff] to-[rgb(197,211,255)] dark:from-[#020e32] dark:to-[rgb(50,0,23)] dark:text-white  ${inter.className}`}>
-        <ThemeProvider  defaultTheme="system" enableSystem attribute="class">
+        <ThemeProvider  defaultTheme="dark" enableSystem attribute="class">
         {children}
           
         </ThemeProvider>
